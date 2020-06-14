@@ -194,6 +194,16 @@ demand decreased almost 5%. We finally fell in love with our server.
 
 -- `Gary Stevens, Hosting Canada <https://hostingcanada.org/>`__
 
+We switched from Apache to NGINX and haven't looked back.
+NGINX is now the default web server for our business and the projects we work on.
+We use native NGINX with the FastCGI module for server-side caching of static content.
+We find NGINX to be very effective for us because it's open-source, super reliable
+and because it scales very well. In our tests, NGINX is 3x faster than Apache
+with static requests, and the average response time in ms is in the double-digits,
+and with very low memory usage as we can handle many more simultaneous connections than before.
+
+-- `Matt Ahlgren, WSHR <https://www.websitehostingrating.com/>`__
+
 .. _why_use_it.notes:
 
 Notes
